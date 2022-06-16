@@ -8,13 +8,13 @@ import imgWhatsapp from '../assets/whatsapp.png';
 const RedesSociales = () => {
     return (
         <div className='RedesSociales'>
-            <img src={imgFacebook} alt="Facebook" />  
-            <img src={imgGorjeo} alt="Gorjeo" />      
+            <img src={imgFacebook} alt="Facebook" />
+            <img src={imgGorjeo} alt="Gorjeo" />
             <img src={imgInstagram} alt="Instagram" />
             <img src={imgMensajero} alt="Mensajero" />
-            <img src={imgTelegram} alt="Telegram" />  
-            <img src={imgWhatsapp} alt="Whatsapp" />  
-        </div>  
+            <img src={imgTelegram} alt="Telegram" />
+            <img src={imgWhatsapp} alt="Whatsapp" />
+        </div>
     )
 }
 export default RedesSociales;

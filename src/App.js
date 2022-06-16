@@ -8,35 +8,18 @@ import Banner from './components/Banner';
 function App() {
   return (
     <>
-    <div className='Warning'>
-         <Warning />
-    </div>
-    <div className='Head'>
-     <Head />
-    </div>
-    <div className='Banner'>
-      <Banner />
-    </div>
-    <div className='TellaFriend'>
-             <TellaFriend />
-    </div>
-
-  
-    
-    
-    
-    
-        
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
+      <div className='Warning'>
+        <Warning />
+      </div>
+      <div className='Head'>
+        <Head />
+      </div>
+      <div className='Banner'>
+        <Banner />
+      </div>
+      <div className='TellaFriend'>
+        <TellaFriend />
+      </div>
     </>
   );
 }
