@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Warning from './components/warning';
-import TellaFriend from './components/TellaFriend';
-import Head from './components/Head';
-import Banner from './components/Banner';
+import TellaFriend from './components/tellafriend';
 
 function App() {
   return (
     <>
-      <div className='Warning'>
+      <div>
         <Warning />
       </div>
-      <div className='Head'>
-        <Head />
-      </div>
-      <div className='Banner'>
-        <Banner />
-      </div>
-      <div className='TellaFriend'>
+      <div>
         <TellaFriend />
       </div>
     </>

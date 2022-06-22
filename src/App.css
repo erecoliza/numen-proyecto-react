@@ -1,108 +1,11 @@
 .App {
   text-align: center;
 }
-.Warning {
-  position: absolute;
-  width: 100%;  
-  left: 0px;
-  top: 0px;
-  margin: 0px;
-  background: #C2E8CE;  
-  font-size: calc(2px + 2vmin);
-  display: flex;    
-  justify-content: space-evenly;  
-}
-
-.Warning img{
-  width: 30px;
-  height: 30px;
-  margin-top: auto;
-  margin-bottom: auto;        
-}
-
-.Warning h3{          
-  font-weight: bold;       
-}
-
-.TellaFriend{
-  position: absolute;
-  width: 1280px;
-  height: 260px;
-  left: 0px;
-  top: 3665px;  
-  background: #FF8126;  
-  width: 100%;  
-  
-  display: flex;
-  flex-direction: column;        
-  text-align: center;  
-}
-
-.RedesSociales{
-  position:absolute;
-  top: 100px;
-  width: 100%;
-  height: 130px;
-  left: 0px;
-  display: flex;
-  gap: 30px;
-  flex-direction: row;
-  justify-content:center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.RedesSociales img{
-  width: 60px;
-  height: 60px;
-}
-
-.RedesSociales img:hover,
-.Warning img:hover
- {
-  /*background-color: lightgray;*/
-  color:black;
-  cursor: pointer;
-  opacity: 0.5;
-}
-
-.Head {
-  position: absolute;
-  width: 100%;
-  height: 95px;
-  left: 55px;
-  top: 70px;
-} 
-  
-.Banner {
-  position: absolute;
-  width: 100%;
-  height: 500px;
-  left: 0px;
-  top: 185px;
-  background: #C4C4C4;
-}  
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
