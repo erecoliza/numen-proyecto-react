@@ -17,7 +17,7 @@ export const Image = styled.img `
     height: 30px;
     margin-top: auto;
     margin-bottom: auto; 
-    margin-left: calc(100% / 3.5 )  ;    
+    margin-left: calc(100% / 4 )  ;    
     margin-right: 40px;
     &:hover {        
         color:black;

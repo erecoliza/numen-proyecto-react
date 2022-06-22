@@ -5,7 +5,7 @@ const TellaFriend = () => {
   return (
     <>
       <Div>
-      <H1> Tell a Friend </H1>
+      <H1> Comparte con tus amigos </H1>
       <RedesSociales />
       </Div>
     </>

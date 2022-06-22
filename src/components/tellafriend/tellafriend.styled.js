@@ -13,5 +13,6 @@ text-align: center;
 `
 export const H1 = styled.h1 `
     width: 100%;
+    font-size: calc(14px + 2vmin);
     text-align: center;
 `

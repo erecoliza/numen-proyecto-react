@@ -8,7 +8,7 @@ const Warning = () => {
     <>
       {!hidden ? 
        <Div className='warning'>
-       <H3>Free Delivery over $100. Gift with Purchase over $150</H3>             
+       <H3>Delivery Sin Cargo - Con su compra superior a $1.500,00 obtiene un regalo</H3>             
        <Image src={imgCerrar} alt="Cerrar" onClick={() => setHidden(s => !s)} />
       </Div>
       : null}     
