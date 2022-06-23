@@ -27,75 +27,7 @@ export const Menu = styled.div`
     position: absolute;
     width: 654px;
     height: 230px;
-    left: 110px;
+    left: 200px;
     top: 40px;
-    display: flex;   
-    flex-direction: row;
-    justify-content:Space-evenly;   
-    column-gap: 11px;      
+    
     `
-export const Navbar = styled.div`
-    overflow: hidden;
-    background-color: white;    
-    `   
-export const Dropdown = styled.div`
-    float: left;
-    overflow: hidden;
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;    
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;       
-    &:hover {        
-        background-color: #ddd;         
-        display: block;       
-        }
-    `
-export const Anchor = styled.a `
-    float: left;
-    font-size: 16px;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;  
-    &:hover {        
-        background-color: #ddd;                 
-        }
-    `
-export const Anchores = styled.a `
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;   
-
-    `
-export const Dropdowncontent = styled.div`   
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    &:hover {        
-        background-color: red;          
-        }
-    `
-export const Dropbtn = styled.button`
-        display: block;  
-        font-size: 16px;  
-        border: none;
-        outline: none;
-        color: black;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;      
-        &:hover {        
-            background-color: #ddd;         
-            display: block;       
-            }  
-     `
