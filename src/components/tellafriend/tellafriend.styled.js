@@ -2,10 +2,10 @@ import styled from "@emotion/styled"
 
 export const Div = styled.div `
 position: absolute;
-top: 665px;
-left: 0px;
+top: 3665px;
+left: 320px;
 height: 260px;  
-width: 100%;    
+width: 1280px;
 background: #FF8126; 
 display: flex;
 flex-direction: column
