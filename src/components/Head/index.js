@@ -12,7 +12,7 @@ const Head = () => {
             <Div>
                 <Image src={logo} alt="Bakery-Logo" />
                 <Menu>
-                    <Navbar bg="light" variant="light">
+                    <Navbar bg="white" variant="light">
                         <Container fluid>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
