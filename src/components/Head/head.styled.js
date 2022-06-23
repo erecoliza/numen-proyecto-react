@@ -8,26 +8,53 @@ export const Div = styled.div`
     left: 375px;
     top: 170px;
 `
-export const Image = styled.img`
-    /* logo */
-    position: Absolute;
-    width: 110px;
-    height: 95px;
-    left: 55px;
-    top: 20px;    
-`
-export const Imagedrop = styled.img`
-    /* Dropmenu imagen */    
-    width: 10px;
-    height: 10px;  
-    margin-left:10px;     
-`
 export const Menu = styled.div`
     /* logo */
     position: absolute;
     width: 654px;
     height: 230px;
     left: 200px;
-    top: 40px;
+    top: 20px;
     
     `
+export const Logo = styled.img`
+    /* logo */
+    position: Absolute;
+    width: 110px;
+    height: 95px;
+    left: 55px;
+    top: 5px;    
+`
+export const Search = styled.img`
+    /* logo */
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 900px;
+    top: 20px;   
+`
+export const Profile = styled.img`
+    /* logo */
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 970px;
+    top: 20px;   
+`
+export const Ellipse = styled.img`
+    /* logo */
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1040px;
+    top: 20px;   \
+`
+
+export const Shopping = styled.img`
+    /* logo */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1055px;
+    top: 35px;   
+`

@@ -11,6 +11,7 @@ export const Div = styled.div `
     font-size: calc(2px + 1.5vmin);
     display: flex;    
     justify-content: flex-end;     
+    align-items: center;
 `
 
 export const Image = styled.img `
@@ -28,12 +29,6 @@ export const Image = styled.img `
 
 `
 export const H3 = styled.h3 `
-
-
-
-
-
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;

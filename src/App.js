@@ -1,16 +1,17 @@
 import './App.css';
-
 import Main from './components/main.js';
 import Warning from './components/warning';
-import Head from './components/Head';
+import Head from './components/head';
+import Banner from './components/banner';
 import TellaFriend from './components/tellafriend';
 
 function App() {
-  return (    
-    <div>      
+  return (       
+    <div>            
       <Main />     
       <Warning />
-      <Head />      
+      <Head />     
+      <Banner />     
       <TellaFriend />
     </div>    
   );
