@@ -3,6 +3,7 @@ import Main from './components/main.js';
 import Warning from './components/warning';
 import Head from './components/head';
 import Banner from './components/banner';
+import Instagram from './components/Instagram';
 import TellaFriend from './components/tellafriend';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Main />     
       <Warning />
       <Head />     
-      <Banner />     
+      <Banner />  
+      <Instagram />  
       <TellaFriend />
     </div>    
   );
