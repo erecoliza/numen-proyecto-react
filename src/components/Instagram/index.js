@@ -32,7 +32,7 @@ const Instagram = () => {
     return (
         <Div>
             <TituloCarrusel><Link href="@PremiumBakeryQuality">@PremiumBakeryQuality</Link> on Instagram</TituloCarrusel>
-            <Carousel responsive={responsive}  infinite={true} >
+            <Carousel responsive={responsive} infinite={true} showDots={true} enterMode={true}>
                 <CarrouselImg><Image src={imgcomida1} alt="Comida1" /></CarrouselImg>                
                 <CarrouselImg><Image src={imgcomida2} alt="Comida2" /></CarrouselImg>
                 <CarrouselImg><Image src={imgcomida3} alt="Comida3" /></CarrouselImg>

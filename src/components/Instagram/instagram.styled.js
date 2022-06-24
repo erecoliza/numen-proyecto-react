@@ -5,12 +5,12 @@ export const Div = styled.div`
     width: 1170px;
     height: 276px;
     left: 370px;
-    top: 3389px;
-    background: white;
+    top: 3380px;
+    background: white;    
 `
 export const CarrouselImg= styled.div`    
-    width: 186px;
-    height: 186px;    
+    width: 156px;
+    height: 156px;    
     top: 3399px;
     background: #FFFFFF;    
     border: 1px solid;
@@ -18,10 +18,10 @@ export const CarrouselImg= styled.div`
     /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);*/
 `
 export const Image = styled.img `
-    width: 156px;
-    height: 156px;
-    margin-left: 15px;
-    margin-top: 15px;
+    width: 136px;
+    height: 136px;
+    margin-left: 9px;
+    margin-top: 9px;    
     &:hover {        
         color:black;
         cursor: pointer;

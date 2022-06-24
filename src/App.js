@@ -1,5 +1,5 @@
 import './App.css';
-import Main from './components/main.js';
+import Main from './components/main';
 import Warning from './components/warning';
 import Head from './components/head';
 import Banner from './components/banner';
