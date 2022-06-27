@@ -5,8 +5,8 @@ import Head from './components/head';
 import Banner from './components/banner';
 import Instagram from './components/Instagram';
 import TellaFriend from './components/tellafriend';
-import { createContext, useState } from 'react';
 import Foot from './components/foot';
+import { createContext, useState } from 'react';
 
 export const MenuContext = createContext();
 
