@@ -8,15 +8,6 @@ export const Div = styled.div`
     left: 375px;
     top: 170px;
 `
-export const Menu = styled.div`
-    /* logo */
-    position: absolute;
-    width: 654px;
-    height: 230px;
-    left: 200px;
-    top: 20px;
-    
-    `
 export const Logo = styled.img`
     /* logo */
     position: Absolute;
