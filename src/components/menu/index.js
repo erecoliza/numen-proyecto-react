@@ -10,7 +10,6 @@ import { TopMenu } from './menu.styled';
 const Menu = () => {
     const menues = useContext(MenuContext);
     return (
-
         <TopMenu>
             <Navbar bg="white" variant="light">
                 <Container fluid>
