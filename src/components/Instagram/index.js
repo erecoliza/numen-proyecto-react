@@ -1,8 +1,8 @@
-import imgcomida1 from '../../assets/carrousel/comida1.png';
-import imgcomida2 from '../../assets/carrousel/comida2.png';
-import imgcomida3 from '../../assets/carrousel/comida3.png';
-import imgcomida4 from '../../assets/carrousel/comida4.png';
-import imgcomida5 from '../../assets/carrousel/comida5.png';
+import imgcomida1 from '../../assets/carousel/comida1.png';
+import imgcomida2 from '../../assets/carousel/comida2.png';
+import imgcomida3 from '../../assets/carousel/comida3.png';
+import imgcomida4 from '../../assets/carousel/comida4.png';
+import imgcomida5 from '../../assets/carousel/comida5.png';
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";

@@ -9,12 +9,12 @@ import { Div, Image } from './redessociales.styled';
 const RedesSociales = () => {
     return (
         <Div>
-            <Image src={imgFacebook} alt="Facebook" />
-            <Image src={imgGorjeo} alt="Gorjeo" />
-            <Image src={imgInstagram} alt="Instagram" />
-            <Image src={imgMensajero} alt="Mensajero" />
-            <Image src={imgTelegram} alt="Telegram" />
-            <Image src={imgWhatsapp} alt="Whatsapp" />
+            <Image src={imgFacebook} alt="Facebook" draggable="false"/>
+            <Image src={imgGorjeo} alt="Gorjeo" draggable="false"/>
+            <Image src={imgInstagram} alt="Instagram" draggable="false"/>
+            <Image src={imgMensajero} alt="Mensajero" draggable="false"/>
+            <Image src={imgTelegram} alt="Telegram" draggable="false"/>
+            <Image src={imgWhatsapp} alt="Whatsapp" draggable="false"/>
         </Div>
     )
 }

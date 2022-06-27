@@ -17,6 +17,7 @@ export const Div = styled.div `
 export const Image = styled.img `
     width: 60px;
     height: 60px;
+    draggable="false";
     &:hover {        
         color:black;
         cursor: pointer;

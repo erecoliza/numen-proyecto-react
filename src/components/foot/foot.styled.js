@@ -28,13 +28,13 @@ export const MenuContainer = styled.div`
 
 export const DivMenu = styled.div `
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 40px;
 
 `
 export const TituloMenu = styled.h1`
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 16px;
     line-height: 22px;
     /* identical to box height */
@@ -47,11 +47,16 @@ export const Menulista = styled.ul `
 export const ItemMenu = styled.li`
     padding: 0px;
     padding-top: 20px;
+    
+    list-style-type: none;
+`
+export const MenuLink = styled.a`
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
-    color: #3D3D3D;
-    list-style-type: none;
+    line-height: 22px;    
+    color: #3D3D3D; 
+    text-decoration: none;
 `
+

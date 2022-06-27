@@ -22,7 +22,8 @@ export const Image = styled.img `
     width: 136px;
     height: 136px;
     margin-left: 9px;
-    margin-top: 9px;    
+    margin-top: 9px; 
+    draggable="false";   
     &:hover {        
         color:black;
         cursor: pointer;

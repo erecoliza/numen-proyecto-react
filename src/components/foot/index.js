@@ -1,13 +1,13 @@
 import logo from "../../assets/Bakery-Logo.png";
 import { useContext } from 'react';
 import { MenuContext } from '../../App';
-import { DivMenu, ItemMenu, Logo, MenuContainer, Menulista, Pie, TituloMenu } from './foot.styled';
+import { DivMenu, ItemMenu, MenuLink, Logo, MenuContainer, Menulista, Pie, TituloMenu } from './foot.styled';
 
 const Foot = () => {
     const menues = useContext(MenuContext);
     return (
         <Pie>
-            <a href="#"><Logo src={logo} alt="Bakery-Logo" /></a>
+            <a href="#" draggable="false"><Logo src={logo} alt="Bakery-Logo" draggable="false"/></a>
             <MenuContainer>
                 {menues.map(menu => (
                     <DivMenu>
@@ -15,7 +15,7 @@ const Foot = () => {
                         <Menulista >
                             {menu.itemMenu.map(item => (
                                 <ItemMenu >
-                                    <a href={item.href}>{item.itemMenu}</a>
+                                    <MenuLink href={item.href}>{item.itemMenu}</MenuLink>
                                 </ItemMenu>
                             ))}
                         </Menulista>

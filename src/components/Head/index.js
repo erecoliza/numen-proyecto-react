@@ -10,11 +10,11 @@ const Head = () => {
     return (
         <>
             <Div>
-                <a href="#"><Logo src={logo} alt="Bakery-Logo" /></a>
+                <a href="#" draggable="false"><Logo src={logo} alt="Bakery-Logo" draggable="false"/></a>
                 <Menu />
-                <a href="#"><Search src={search} alt="Search-Logo" /></a>
-                <a href="#"><Profile src={profile} alt="Profile-Logo" /></a>
-                <a href="#"><Ellipse src={ellipse} alt="Shopping-Logo" /><Shopping src={shopping} alt="Shopping-Logo" /></a>
+                <a href="#" draggable="false"><Search src={search} alt="Search-Logo" draggable="false"/></a>
+                <a href="#" draggable="false"><Profile src={profile} alt="Profile-Logo" draggable="false"/></a>
+                <a href="#" draggable="false"><Ellipse src={ellipse} alt="Shopping-Logo" draggable="false"/><Shopping src={shopping} alt="Shopping-Logo" draggable="false"/></a>
             </Div>
         </>
     )
