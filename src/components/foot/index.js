@@ -10,6 +10,8 @@ const Foot = () => {
             <a href="#" draggable="false"><Logo src={logo} alt="Bakery-Logo" draggable="false"/></a>
             <MenuContainer>
                 {menues.map(menu => (
+                    menu.itemMenu.length > 0
+                    ? (
                     <DivMenu>
                         <TituloMenu >{menu.titulo}</TituloMenu>
                         <Menulista >
@@ -20,7 +22,8 @@ const Foot = () => {
                             ))}
                         </Menulista>
                     </DivMenu>
-                ))}
+                    ) : null
+                            ))}
             </MenuContainer>
         </Pie>
     )
