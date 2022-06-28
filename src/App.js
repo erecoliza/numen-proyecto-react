@@ -4,16 +4,18 @@ import Warning from './components/warning';
 import Head from './components/head';
 import Banner from './components/banner';
 import Instagram from './components/Instagram';
+import Ourpartner from './components/ourpartner';
 import TellaFriend from './components/tellafriend';
 import Foot from './components/foot';
 import { createContext, useState } from 'react';
+
 
 export const MenuContext = createContext();
 
 function App() {
   const [menu, setMenu] = useState([
     {
-      titulo: 'Occasions', id: 1, itemMenu: [
+      titulo: 'Occasions', id: 1,  href: '#', itemMenu: [
         { itemMenu: 'Occasions', href: '#action/1.1', id: 1 },
         { itemMenu: 'Working From Home', href: '#action/1.2', id: 2 },
         { itemMenu: 'Snack Time', href: '#action/1.3', id: 3 },
@@ -24,7 +26,7 @@ function App() {
         { itemMenu: 'All Products', href: '#action/1.8', id: 8 }
       ]},
     {
-      titulo: 'All Categories', id: 2, itemMenu: [
+      titulo: 'All Categories', id: 2, href: '#', itemMenu: [
         { itemMenu: 'Baking', href: '#action/2.1', id: 1 },
         { itemMenu: 'Breakfast', href: '#action/2.2', id: 2 },
         { itemMenu: 'Condiments', href: '#action/2.3', id: 3 },
@@ -39,7 +41,7 @@ function App() {
         { itemMenu: 'All Products', href: '#action/2.12', id: 12 }
       ]},
     {
-      titulo: 'Gifts & Bundles', id: 3, itemMenu: [
+      titulo: 'Gifts & Bundles', id: 3, href: '#', itemMenu: [
         { itemMenu: 'Sweet Tooth Special', href: '#action/3.1', id: 1 },
         { itemMenu: 'Discover Local', href: '#action/3.2', id: 2 },
         { itemMenu: 'Baking Box', href: '#action/3.3', id: 3 },
@@ -47,10 +49,10 @@ function App() {
         { itemMenu: 'Snacking Sensations', href: '#action/3.5', id: 5 }
       ]},
     { 
-      titulo: 'Our Brands', id: 4, itemMenu: []      
+      titulo: 'Our Brands', id: 4, href: '#OurBrands', itemMenu: []      
     },
     { 
-      titulo: 'About Us', id: 5 , itemMenu: []      
+      titulo: 'About Us', id: 5 , href: '#AboutUs', itemMenu: []      
     }
   ])
   return (
@@ -61,6 +63,7 @@ function App() {
         <Head />
         <Banner />
         <Instagram />
+        <Ourpartner />
         <TellaFriend />
         <Foot />
       </MenuContext.Provider>

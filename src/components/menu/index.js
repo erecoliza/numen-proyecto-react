@@ -17,11 +17,16 @@ const Menu = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             {menues.map(menu => (
+                                menu.itemMenu.length > 0
+                                ? (
                                 <NavDropdown title={menu.titulo} id="basic-nav-dropdown" key={menu.id}>
                                     {menu.itemMenu.map(item => (
                                         <NavDropdown.Item href={item.href}>{item.itemMenu}</NavDropdown.Item>
                                     ))}
                                 </NavDropdown>
+                                ) : (
+                                <Nav.Link href={menu.href}>{menu.titulo}</Nav.Link>
+                                )
                             ))}
                         </Nav>
                     </Navbar.Collapse>
